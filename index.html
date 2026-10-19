@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<hhtml>
+    <head>
+        <meta charset="UTF-8">
+        <tittle>inscription</tittle>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Mon premier formulaire HTML5</h1>
+        <form>
+            <fieldset>
+                <legend>vos donneés personelles</legend>
+                
+                <label> Nom : </label>
+                <input type="text" name="Nom" required>
+                <br><br>
+                <label> Prénom :</label>
+                <input type="text" name="Prénom" required>
+                <br><br>
+                <label for="date">Date de naissance</label>
+                <input type="date" id="date">
+                <legend>lieu de naissance</legend>
+                <input type="radio" name="lieu" id="seine">
+                <label for="seine">Seint-Saint-Denis</label>
+                <input type="radio" name="lieu" id="seine">
+                <label for="seine">Reste du monde</label>
+
+
+            </fieldset>
+            <br>
+            <label for="adresse">adresse postale</label>
+            <input type="text" id="adresse " placeholder="votre adresse">
+            <br><br>
+            <label for="code">code postale</label>
+            <input type="text" id="code " placeholder="0000" >
+            <br><br>
+
+            <label for="adresse">adresse électronique</label>
+            <input type="email" id="email " placeholder="votre adresse électronique" >
+            <br><br>
+            <label for="page">page personelles</label>
+            <input type="page" id="page personelles" placeholder="votre page personelles" >
+            <br><br>
+            <label for="telephone">Téléphone portable</label>
+            <input type="tel" id="telephone portable" placeholder="0612568895" >
+            <br><br>
+            <label for="semestre"></label>
+            <select id="semestre">
+                <option>s1</option>
+                <option selected>s2</option>
+            </select>
+            <br><br>
+            <label for="niveau" >Niveau en HTML</label>
+            <input type="range" id="niveau" min="0" max="10" >
+            <fieldset>
+                <legend>connaissance</legend>
+                <input type="checkbox"  id="html"></label>
+                <label for="html">HTML</label>
+                <input type="checkbox"  id="css"></label>
+                <label for="css">css</label>
+                <input type="checkbox" id="formulaire">
+                <label for="formulaire">formulaire</label>
+                <input type="checkbox" id="js">
+                <label for="js">javascript</label>
+            </fieldset>
+            <br>
+            <button type="submit">Envoyer</button>
+           
+
+
+
+ 
+
+             
+             
+
+
+
+
+
+
+        </form>
+        <p>formulaire realise dans le cadre du tp 2</p>
+
+        
+    </body>
+</hhtml>
